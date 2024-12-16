@@ -1,0 +1,37 @@
+United States Colonial Marine for Half-Life
+-----------------------------------------------------
+Authors:       	Aaron Hoffman (Hoffa)
+			-Model
+			-Biping & making MDL file
+			-Added graphics & touch ups to the skin
+		Chris Ashton
+			-Skin
+
+Model Name:   	USCM (United States Colonial Marines)
+Version:       	1.0
+Relaese Date:  	28 August 1999
+Files:		USCM.mdl USCM.bmp USCM.txt
+Polygons:     	717
+Vertices:     	396
+Team Colors:   	No
+Animations:   	Standard Animations
+Programs Used:	3D Studio MAX R2.5, Photoshop 5, Meshpaint, 4Dpaint, StudioMDL
+
+Known bugs:
+The top of the legs could have used and extra few polys so it animates alot better.
+
+Description:
+This USCM model was made for the x TC names USCM:Infestation, which was foxed.  The Skin is based on pics of Hudsons uniform from the movie Aliens (Thanks to Harry Harris).  The model and skin where sitting on my HD for a while so I decided to make it into a Hlf-Life DM player.
+
+Installation:
+Put all files into valve/models/player/USCM
+
+Distribution:
+The USCM model can be distributed freely as long as this text file is included.
+
+Acknowledgments
+-All the people who helped to make the USCM:Infestation TC before it was foxed.
+-Harry Harris For allowing us to use picutes from his collection of Aliens movie props. http://www.encom.demon.co.uk/index.html
+---------------------------------------------
+E-mail:	   	Hoffa:	azza@techno.net.au
+		Chris:  chrisa@presto.com

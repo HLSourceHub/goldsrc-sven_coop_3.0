@@ -1,0 +1,60 @@
+December 2, 2003 
+
+Map Title:  SandStone
+HL MOD:     Sven Co-op http://www.svencoop.com
+
+Map Author: Travis Wilson (tdw) tdwdesign@yahoo.com
+Assistance: Sven Viking
+
+HD Models:  HIT Team http://bulletpain.com/hitforum/index.php
+HD Grunts:  One Eyed Newt
+HD HWGrunt: Caldwell
+
+Engineer Idea: Felix
+
+-=STORY=-
+	A group of mercenaries have acquired bio-hazardous material
+	and took shelter in a small town. Overhead surveillance 
+	of the area has confirmed nine targets for demolition. 
+
+	Your mission is to escort the Engineer to all of these targets.
+	Your team will need to hold back any incoming forces and 
+	give the Engineer cover fire while he plants the explosives.
+
+-=Special Thanks=-
+
+	**SC Core Team Members**
+	Sven Viking
+	Sniper
+	Jerig
+	Nivekdev
+	Mad Jonesy
+	(GIT)r-man
+	Commando  
+
+	**SC General Team Members**
+	Caldwell
+	ZeroPulse
+	Flewda
+	MarGon
+	BurnOut64
+
+	**SC Official Mappers**
+	BMTwigzta  
+	Dan200  
+	Kenny  
+	Mystic_MDT  
+	Paul Shuttle  
+	Penguin  
+
+	**Beta Testers**
+	Corona               
+	The-Real-Game
+                                         
+	Valve                                      
+	Gearbox                                    
+	ID Software                                
+	Sierra                                     
+                                          
+	and last but not least, all of the         
+	SC forum Moderators and forum Members

@@ -1,0 +1,9 @@
+Half-Life Single-Player Map Portal
+(Links to Valve's HLSP storyline maps)
+
+IMPORTANT: Full co-op support for Valve's HLSP maps MUST be installed on the server (the machine on which the game was started, even if you're playing off-line)... otherwise there'll be bugs everywhere, and many points past which you will not be able to continue. 
+
+For instructions on installing full HLSP co-op support, check this page:
+http://www.svencoop.com/spm.php
+
+HLSP support cannot be installed for CS Retail or DoD Retail.

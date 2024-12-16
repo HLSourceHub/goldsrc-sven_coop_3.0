@@ -1,0 +1,205 @@
+=========================================================
+Title			: Incoming Stage II (Sept 3rd 2002 Build)
+Filename			: incoming.bsp
+Game			: Half-Life SvenCoop
+Author			: Ryan Heeley aka BMTwigzta
+Email Address		: BMTwigzta@email.com
+Web Address		: http://bmtwigzta.cjb.net
+Description		: Somewhere in the deserts of the U.S.
+
+After the residence cascade of the Black Mesa Research Facility, the superiors of the smaller mesa research facilities have grown increasingly paranoid towards their defence systems. Their defence systems can only go to a certain limit of effectiveness. The superiors of the smaller mesa facilities, under the pressure of military "clean-outs" following the black mesa incident, have decided to hire defence squads to further the chances of successful military resistance.
+
+You and your teammates have just been hired to defend a small facility not too far away from the black mesa facility. Things seem to be in order... so far...
+
+Stage II is the SvenCoop 2.0 Final version, not to be confused with the
+
+=========================================================
+* Info *
+
+Single Player		: Hell no (you'll get stuck at several places)
+Cooperative		: Yes
+New Sounds		: Yes
+New Graphics		: Textures - Jungle/outdoor additions:
+					one or two from Firearms version rc1 .wad
+					a few from counterstrike
+					.wad featured with de_predator - Michael Visser aka 3D_Mike
+					One lovely texture ;) acquired from an animation found while surfing the net.
+			  Models - Head Scientist - Turrican - Find in http://hlmodels.cjb.net
+				- HEV Barney - Sushi - Find in svencoop.com/forums
+				- Desert Eagle - OmegaLE - peam_p@yahoo.com
+				- Sabre - Scarecrow - Scarecrow@dial.pipex.com
+				- Aquasquid - (Unknown)
+				- Shark - Raptor65 - Find in svencoop.com/forums
+New Sky			: Nope
+
+=========================================================
+
+* Construction *
+
+The Map			: Made from scratch
+Editor(s)			: Worldcraft 3.3, Valve Hammer Editor 3.4, Wally, Notepad, ZHLT, HLCC, Paintshop Pro, Sound Recorder
+Known Bugs		: Earlier test versions Jungle area caused pc to crash. This is because of Grunt models, which have been removed.
+Build Time		: Another heavy fortnight (after the initial 1.5 weeks that took the first incoming)
+Build Machine		: piii 733Mhz, 512MB Ram, 3D Prophet II MX (Geforce II spinoff)
+Compile Time		: Bout 5 hours 0_0
+
+R_speeds                : Acceptable! MIGHT be a tad slowish on a lowend (or even a highend) PC when all monsters are in the map, but I think its 			acceptable for internet play.
+
+Author's Notes          : Sorry i couldn't get -wadinclude to work, i have no f**king idea why it didn't, i used the command line, the bat file, HLCC and 		ZHLT Compile GUI, none of them worked, so screw wadinclude, the wads seperate, but still i dont see all the fuss about a 		seperate wad file.
+
+		It is advisable to defeat all enemies before proceeding to the next area. This applies mostly to the fishes 	and the grunts. Once 		the inner valve is pressed the fishes will stop respawning. (Or at least they're 	supposed to)
+
+		Oh yeah you better leave the map when first running it for a few seconds while it builds the node graph.
+
+		Thanks to Dutchtux for the Desert Eagle he converted that was used in the first version of incoming.
+
+		Thanks to Sven Viking for.. well, you guys will just have to find out eh ;) Thanks Sven :D
+
+		For those observant gits, yes, some detail has been reduced (just a few bits here and there) to account for the texture and 	entity limit, to which i drastically overshot at one point. For those who want to know some tips and stuff I first used the trick of turning 	complex detailed items into func_walls.. but after running out of entities I had to convert em back to worldspawn and use the good method 	of moving them 1 unit away from the contacting walls. Also when using this method on mostly everything and still finding i ran out of 	entities, I employed the great idea of "killing" the entities you won't see from the routes you don't take. Oh yes by the way there's 4 	different ways to go in this map ;)
+
+		Thanks to the following artists: Travis, Oasis, Blur, LTJ Bukem, Daft Punk, Fat Boy Slim, Linkin Park
+
+		Thanks to the whole of the SvenCoop community.. well the good side at least.. The following need a special 		mention:
+		- Gore - You muppet ;D
+		- Hezus - Thousands of inspirational maps by you aided me in the making of incoming ;)
+		- Mad Jonesy - Always on hand to take my whining and the supplier of alot of decent ideas and advice ^_^
+		- Sven Viking - For being "the man" and for liking "Another World" and "Flashback" =D
+		- Prod - For making an avatar that made me laugh and also providing anti-whine when my email went down -_-
+		- Nomble - For making me laugh and whooping me at HLDM
+
+=========================================================
+
+Installation:
+
+Extract to your Half-Life directory with sub-folders enabled in your unzipping program.
+That's all there is to it! It'll install to SvenCoop itself.
+
+=========================================================
+
+*** POINTLESS PLUGS!!! ***
+
+Go to http://www.svencoop.com for... take a goddamn guess hotshot!
+
+Go to http://bmtwigzta.cjb.net for no reason at all! Just go!
+
+Go to http://www.bob-o-buds.com for the best source of totally outrageous HL experimental changes to make the 								game a helluva lot more interesting!
+
+Go to http://www.dj-mrmagic.co.uk for all your soulful house-ing needs! Oh yeah drop in at one of his SC servers while you 					are at it ;D
+
+
+*** The Fools Guide!!! ***
+
+The Shark area - You really think you should fight 3 sharks at once? You know you COULD lure some of them into the little hole you came from, just to make things easier. And incase you didn't know, one person for each wheel, a third to go in and turn the wheel inside, and a fourth SHOULD be distracting the sharks. Ofcourse it's been done with 3 or even 2 people before, but that's what I recommend.
+
+The Assassin area - One person keeps hold of that bomb defusal button, while the others get rid of the assassins. Probably best to use the tripmines supplied for that area.
+
+The Lift Shaft area - Okay I'm sorry! It's frustrating I know! But once you get in it's easier. Okay so first you need one person to sit on the little pole sticking out the water. Another person should then jump on their head and somehow wigglyjump their way into the room. Get around the zombies, go into the small sideroom, move the explosive crate into the waste. BOOM, instant easy lift shaft access. If you want the medikit from the lower storage room you and your team have to co-operate.
+
+The Big Boom Sequence - Annoyed that you got blew up? Why didn't you make it to the little room then!? I know it's designed to generally blow the hell out of n00bs the first time round, but at least you then know where to go. Not up the lift shaft, not to the storage room, but to the little side room. As long as one person is there, you've all won the map.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+T O U C H
+T H E
+L I G H T
+
+O R
+
+C L I M B
+T H E
+S T A I R W A Y
+T O
+H E A V E N

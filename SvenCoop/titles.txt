@@ -1,0 +1,1096 @@
+//TITLES FOR HALF-LIFE
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// effect -1 is print center (normal text in center of screen)
+// effect -2 is print notify (normal text in top left of screen)
+// effect -3 is print center (text piped straight into console)
+// effect -4 is print talk (normal text in lower middle of screen)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+// the only flags TFC uses are the effect value -4 through -1, for screen positions
+
+$effect 0
+
+// other menu text
+Menu_OK
+{
+OK
+}
+
+Menu_Cancel
+{
+CANCEL
+}
+
+Menu_Spectate
+{
+SPECTATE
+}
+
+// Spectator Menu
+Spec_Mode1
+{
+Locked Chase-Camera Mode
+}
+
+Spec_Mode2
+{
+Free Chase-Camera Mode
+}
+
+Spec_Mode3
+{
+Free Roaming Mode
+}
+
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help
+{
+ENTER to Play  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Spec_Help2
+{
+Your text messages can only be seen by other Spectators
+}
+
+Spectators
+{
+Spectators
+}
+
+Unassigned
+{
+Unassigned
+}
+
+// Scoreboard
+TEAMS
+{
+TEAMS
+}
+
+PLAYERS
+{
+PLAYERS
+}
+
+CLASS
+{
+CLASS
+}
+
+SCORE
+{
+SCORE
+}
+
+DEATHS
+{
+DEATHS
+}
+
+LATENCY
+{
+LATENCY
+}
+
+CR27
+{
+Black Mesa Research Facility
+Black Mesa, New Mexico
+}
+
+
+//INTRO CREDITS
+// Test values -- JAY
+// Lower left
+$position 0.1 0.8
+$effect 1
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 1.5
+$fadeout 0.5
+$holdtime 1.2
+
+CR1
+{
+Ted Backman
+}
+
+CR2
+{
+TK Backman
+}
+
+CR3
+{
+Kelly Bailey
+}
+
+CR4
+{
+Yahn Bernier
+}
+
+CR5
+{
+Ken Birdwell
+}
+
+CR6
+{
+Steve Bond
+}
+
+CR7
+{
+Dario Casali
+}
+
+CR8
+{
+John Cook
+}
+
+CR9
+{
+Greg Coomer
+}
+
+CR10
+{
+Wes Cumberland
+}
+
+CR11
+{
+John Guthrie
+}
+
+CR12
+{
+Mona Lisa Guthrie
+}
+
+CR13
+{
+Mike Harrington
+}
+
+CR14
+{
+Monica Harrington
+}
+
+CR15
+{
+Brett Johnson
+}
+
+CR16
+{
+Chuck Jones
+}
+
+CR17
+{
+Marc Laidlaw
+}
+
+CR18
+{
+Karen Laur
+}
+
+CR19
+{
+Randy Lundeen
+}
+
+CR20
+{
+Yatsze Mark
+}
+
+CR21
+{
+Lisa Mennet
+}
+
+CR22
+{
+Gabe Newell
+}
+
+CR23
+{
+Dave Riller
+}
+
+CR24
+{
+Aaron Stackpole
+}
+
+CR25
+{
+Jay Stelly
+}
+
+CR26
+{
+Harry Teasley 
+}
+
+CR35
+{
+Steve Theodore
+}
+
+CR36
+{
+Bill Van Buren
+}
+
+CR37
+{
+Robin Walker
+}
+
+CR38
+{
+Douglas R. Wood
+}
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+VALVEIS
+{
+Valve is:
+}
+
+END1
+{
+Ted Backman
+TK Backman
+Kelly Bailey
+Yahn Bernier
+Ken Birdwell
+Steve Bond
+Dario Casali
+John Cook
+Greg Coomer
+Wes Cumberland
+}
+
+END2
+{
+John Guthrie
+Mona Lisa Guthrie
+Mike Harrington
+Monica Harrington
+Brett Johnson
+Chuck Jones
+Marc Laidlaw
+Karen Laur
+Randy Lundeen
+Yatsze Mark
+}
+
+END3
+{
+Lisa Mennet
+Gabe Newell
+Dave Riller
+Aaron Stackpole
+Jay Stelly
+Harry Teasley
+Steve Theodore
+Bill Van Buren
+Robin Walker
+Douglas R. Wood
+}
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+CR28
+{
+SUBJECT:
+Gordon Freeman
+Male, age 27
+}
+
+CR29
+{
+EDUCATION:
+Ph.D., MIT, Theoretical Physics
+}
+
+CR30
+{
+POSITION:
+Research Associate
+}
+
+CR31
+{
+ASSIGNMENT:
+Anomalous Materials Laboratory
+}
+
+CR32
+{
+CLEARANCE:
+Level 3
+}
+
+CR33
+{
+ADMINISTRATIVE SPONSOR:
+Classified
+}
+
+CR34
+{
+DISASTER RESPONSE PRIORITY:
+Discretionary
+}
+
+$fadein 0.03
+$holdtime 9
+
+GAMEOVER
+{
+SUBJECT:  FREEMAN
+
+STATUS:  EVALUATION TERMINATED
+
+POSTMORTEM:
+Subject failed to effectively utilize
+human assets in achievement of goal.
+}
+
+$fadein 0.03
+$holdtime 9
+TRAITOR
+{
+SUBJECT:  FREEMAN
+
+STATUS:  HIRED
+
+AWAITING ASSIGNMENT
+}
+
+
+$fadein 0.03
+$holdtime 9
+LOSER
+{
+SUBJECT:  FREEMAN
+
+STATUS:  OBSERVATION TERMINATED
+
+POSTMORTEM:
+Subject declined offer of employment.
+}
+
+//CHAPTER TITLES
+
+$fadein 0.01
+$position -1 0.4
+$holdtime 3.5
+T0A0TITLE
+{
+HAZARD COURSE
+}
+
+$position -1 0.65
+C0A0TITLE
+{
+BLACK MESA INBOUND
+}
+
+C0A1TITLE
+{
+ANOMALOUS MATERIALS
+}
+
+C1A1TITLE
+{
+UNFORESEEN CONSEQUENCES
+}
+
+C1A2TITLE
+{
+OFFICE COMPLEX
+}
+
+C1A3TITLE
+{
+"WE'VE GOT HOSTILES"
+}
+
+C1A4TITLE
+{
+BLAST PIT
+}
+
+C2A1TITLE
+{
+POWER UP
+}
+
+C2A2TITLE
+{
+ON A RAIL
+}
+
+C2A3TITLE
+{
+APPREHENSION
+}
+
+C2A4TITLE1
+{
+RESIDUE PROCESSING
+}
+
+C2A4TITLE2
+{
+QUESTIONABLE ETHICS
+}
+
+C2A5TITLE
+{
+SURFACE TENSION
+}
+
+C3A1TITLE
+{
+"FORGET ABOUT FREEMAN!"
+}
+
+C3A2TITLE
+{
+LAMBDA CORE
+}
+
+C4A1TITLE
+{
+XEN
+}
+
+C4A1ATITLE
+{
+INTERLOPER
+}
+
+C4A2TITLE
+{
+GONARCH'S LAIR
+}
+
+C4A3TITLE
+{
+NIHILANTH
+}
+
+C5TITLE
+{
+ENDGAME
+}
+
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 2.0
+// How long it takes to fade out the message after holding
+$fadeout 0.5
+
+GAMESAVED
+{
+Saved...
+}
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+GAMETITLE
+{
+Sven Co-op
+}
+
+//SVENCOOP TEXT
+
+// Test values -- JAY
+$position -1 0.65
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 220 220 220
+// This is the highlight color
+$color2 250 250 250
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 4
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$position -1 0.9
+
+TOR1
+{
+Tor:  "Tor been waiting. Come!"
+}
+
+TOR2
+{
+Tor:  "Master want this. You get. Bring here."
+}
+
+TOR3
+{
+Tor:  "Tor eat now."
+}
+
+TOR4
+{
+Tor think: humans die now. Master say "No". Tor like not.
+}
+
+TOR22
+{
+Tor:  Master say: Humans wait here... minute...
+Master open door soon, so humans stop power.
+}
+
+CHUBBY1
+{
+Chubby:  "HELP!"
+}
+
+FRIENDLYGRUNT1
+{
+Grunt: Hey! I don't know who you are, but
+I'm glad you showed up. I can get you 
+through this door if you want... 
+You'd better stand back, this area's 
+supposed to be sealed off.
+}
+
+// Test values -- JAY
+$position -1 -1
+
+
+SVENCONT1
+{
+To Be Continued...
+}
+
+
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 255 0 0
+// This is the highlight color
+$color2 255 50 50
+// This is the time it takes to fade each character
+$fadein 0.005
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 11
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+SVENCOOPONE
+{
+Warning: The following map, "SvenCoop 1",
+contains scenes of graphic strangeness and 
+map design that may cause eye-pain and/or
+severe headaches. We advise discretion.
+
+SvenCoop is completely and utterly
+fictional. Any similarities to ANYTHING
+that could POSSIBLY exist in reality is
+entirely accidental.
+
+Please visit the Official SvenCo-op site at:
+http://www.svencoop.com
+}
+
+SVENCOOPTWO
+{
+If you know the Chubby-Code, enter it and
+press the "Start" button.
+
+If you don't know the code, just press Start.
+}
+
+// another1: added for several vgui menus
+Button_Votekick
+{
+Votekick
+}
+
+Button_Voteban
+{
+Voteban
+}
+
+Button_Votekill
+{
+Votekill
+}
+
+Button_Votemap
+{
+Votemap
+}
+
+Menu_Yes
+{
+Yes
+}
+
+Menu_No
+{
+No
+}
+
+Votemenu_Topcaption
+{
+Sven Co-op      Vote Menu
+}
+
+Votemenu_Topnoplayer
+{
+No player selected!
+}
+
+Votemenu_Topnomap
+{
+No map selected!
+}
+
+// GUT REACTION TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+CORETITLE
+{
+INFESTED CORE
+}
+
+KDTITLE
+{
+WASTE TUNNELS
+}
+
+RCTITLE
+{
+REACTOR COMPLEX
+}
+
+starttitle
+{
+GUT REACTION
+}
+
+
+endtitle1
+{
+SUBJECT:  GORDON FREEMAN
+}
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 6
+// How long it takes to fade out the message after holding
+$fadeout 3
+
+endtitle2
+{
+STATUS:  MISSING IN ACTION?
+}
+
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 4
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+credit1
+{
+Concepted, Designed and Programmed
+by Tim Johnston (AKA Slingblade)
+}
+
+
+credit2
+{
+Thanks to the following groups and
+their respective individuals
+}
+
+
+credit3
+{
+id Software
+}
+
+credit4
+{
+Valve Software
+}
+
+credit5
+{
+The Halflife Editing
+Resource Center
+}
+
+credit6
+{
+Planethalflife
+}
+
+credit7
+{
+Wavelength
+}
+
+credit8
+{
+The Halflife Workshop
+}
+
+credit9
+{
+RUST
+}
+
+credit10
+{
+All closet level designers who
+have created add-on levels for HL
+}
+
+credit11
+{
+Nostromo and Zigzang for
+encouragement and beta testing
+}
+
+credit12
+{
+To Be Continued...
+}
+
+
+intro1
+{
+SUBJECT:  GORDON FREEMAN
+}
+
+intro2
+{
+STATUS:  HIRED
+}
+
+$position -1 -1
+$effect 2
+
+$color 100 100 100
+
+$color2 240 110 0
+
+$fadein 0.01
+
+$fxtime 0.25
+
+$holdtime 3.5
+
+$fadeout .5
+
+core2access
+{
+MAINTENANCE HATCH TO
+REACTOR CORE #2 OPENED
+}
+
+poweron
+{
+POWER TO RESEARCH FACILITY 
+HAS BEEN REESTABLISHED
+}
+
+poweron2
+{
+LOCATE ENTRANCE TO WASTE TUNNELS
+}
+
+core1shutdowntitle
+{
+REACTOR CORE #1:
+SUCCESSFULLY SHUT DOWN
+}
+
+core1shutdowntitle2
+{
+PROCEED TO REACTOR CORE #2...
+}
+
+$position -1 -1
+$effect 2
+
+$color 100 100 100
+
+$color2 240 110 0
+
+$fadein 0.01
+
+$fxtime 0.25
+
+$holdtime 4.5
+
+$fadeout 1.5
+
+
+intro3
+{
+CONTINGENCIES FOR 
+FURTHER CONSIDERATION:
+
+COMPLETION OF OBJECTIVES
+***MANDATORY***
+}
+
+YOULOSE
+{
+SUBJECT:  FREEMAN
+
+STATUS:  ASSIGNMENT TERMINATED
+
+POSTMORTEM:
+Subject did not protect medical staff
+member vital to gain access to test lab.
+}
+
+$position -1 -1
+$effect 2
+
+$color 100 100 100
+
+$color2 240 110 0
+
+$fadein 0.01
+
+$fxtime 0.25
+
+$holdtime 6.5
+
+$fadeout 1.5
+
+intro4
+{
+OBJECTIVES:
+
+RESTORE POWER TO RESEARCH COMPLEX
+
+LOCATE ENTRANCE TO REACTOR COMPLEX
+VIA WASTE TUNNELS
+
+INITIATE CORE SHUT DOWN SEQUENCE:
+REACTORS 1 AND 2
+}
+
+//
+// DELIVERANCE 
+//
+
+$holdtime 5
+
+THEEND
+{
+THE END
+}
+// Chapter Objectives
+
+$position -1 -1
+$holdtime 5
+
+DELIVER1OBJ
+{
+OBJECTIVE:
+
+Penetrate defensive systems and gain 
+access to the Freight Facility.
+}
+
+DELIVER2OBJ
+{
+OBJECTIVE:
+
+Make your way to Central Command via the 
+Freight Elevator and Freight Storage Facility.
+}
+
+DELIVER3OBJ
+{
+OBJECTIVE:
+
+Locate and free two scientists being held captive and 
+escape together via elevator on opposite side of level.
+}
+
+DELIVER4OBJ
+{
+OBJECTIVE:
+
+Help the scientists start the portal generator. Once 
+the portal is open, get them through it to safety and 
+then make the jump yourself.
+}
+
+DELIVER5OBJ
+{
+OBJECTIVE:
+
+Get yourself and the scientists to the nearby landing pad.
+An Osprey is enroute to pick up the remaining troops. Take 
+out the troops and get everyone onboard the aircraft. 
+}
+
+INGAME4
+{
+You have reached a fork in the road ... 
+The path before you goes to the left and to the right.
+Choose your destiny ...
+}
+INGAME5
+{
+Scientist 1 Rescued!
+}
+
+INGAME6
+{
+Scientist 2 Rescued!
+}
+
+INGAME7
+{
+You have found the Security Card!
+}
+
+INGAME8
+{
+Security Card Not Valid for this Door
+}
+
+INGAME9
+{
+Access Permitted with Security Card 
+}

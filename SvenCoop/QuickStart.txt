@@ -1,0 +1,25 @@
+Sven Co-op Quick Start Guide.
+
+- You must Drop the minigun to select another weapon.
+
+- Allied medic grunts will heal you when you use your Medic Call (holding your Use key will not make them heal you).
+
+- Before playing, remember to and set keys to these and other actions in the control options! Some are new to 3.0.
+
+- To play through Half-Life's single-player story-line co-operatively, start a game using the map "hl_sp_portal.bsp". Make sure full HLSP support is installed on the server!!
+
+- You may see some players using an electrified crowbar or gold Uzis. These are the SvenCo-op Bonus Features. See:
+http://www.svencoop.com/support.php
+for full information on these.
+
+- Occasionally, when loading a new map, Half-Life may seem to freeze at the console. It's most likely building the node graph... this can take a few minutes even on a fast computer. Please wait -- it'll only happen once for that map.
+
+- You may meet players who try to block your path by standing in doorways or similar. You can hit them with your crowbar to pull them away from their position, or you can start a vote to Kill or Kick them.
+
+- Depending on your system, you may not be able to load the MP3 playlist editor until you restart your computer.
+
+- On certain maps, pressing the alternate fire button while holding 10 hand grenades will trigger a special attack.
+
+
+
+See the README.html file for proper documentation.

@@ -1,0 +1,237 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific class:
+//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+// 
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// TEAM3, TEAM4 work as well
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+// Class can be any of the following:
+//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+//	Buttons prepended with a class name will only be seen if the player
+//	is that class. 
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+//--------------------------------------------------------
+// Everything below here is editable
+
+"1" "Commands"
+{
+  "1" "Drop Current Weapon" "drop"
+  "2" "Drop Current Ammo" "dropammo"
+  "3" "Grenade Warning" "grenade"
+  "4" "Call for Medic" "medic"
+  "5" "Suicide" "kill"
+}
+"2" "Vote"
+{
+   "1" "Open Vote Menu" "votemenu"
+}
+"3" "Settings"
+{
+  "1" "Performance Options"
+  {
+  "1" "Gib Count"
+	{
+	"1" "1 gib" "gibcount 1"
+	"2" "2 gibs" "gibcount 2"
+	"3" "3 gibs" "gibcount 3"
+	"4" "4 gibs" "gibcount 4"
+	"5" "5 gibs" "gibcount 5"
+	"6" "6 gibs" "gibcount 6"
+	"7" "Default" "gibcount 0"
+	}
+  }
+  "2" "Timelimit"
+  {
+  "1" "Disable Timelimits" "mp_notimelimit 1"
+  "2" "Enable Timelimits" "mp_notimelimit 0"
+  }
+  "3" "Donor Options"
+  {
+    "1" "Toggle Uzi Skin" "uzi_gilded"
+  }
+  "4" "Violence Settings"
+  {
+    "1" "Human Gore On" "violence_hblood 1;violence_hgibs 1"
+    "2" "Human Gore Off" "violence_hblood 0;violence_hgibs 0"
+    "3" "Alien Gore On" "violence_ablood 1;violence_agibs 1"
+    "4" "Alien Gore Off" "violence_ablood 0;violence_agibs 0"
+  }
+  "5" "Mouse"
+  {
+    "1" "VGUI Mouse Capture"
+    {
+      "1" "ON" "hud_capturemouse 1"  
+      "2" "OFF" "hud_capturemouse 0"  
+    }
+    "2" "Sensitivity 7.0" "sensitivity 6.0"  
+    "3" "Sensitivity 8.0" "sensitivity 7.0"  
+    "4" "Sensitivity 9.0" "sensitivity 8.0"  
+    "5" "Sensitivity 10.0" "sensitivity 9.0"  
+    "6" "Sensitivity 11.0" "sensitivity 10.0"  
+    "7" "Sensitivity 12.0" "sensitivity 11.0"  
+    "8" "Sensitivity 13.0" "sensitivity 12.0"  
+    "9" "Sensitivity 14.0" "sensitivity 13.0"  
+    "10" "Correct D3D Error"
+    {
+      "1" "ON" "gl_d3dflip 1"  
+      "2" "OFF" "gl_d3dflip 0"  
+    }
+  }
+  "6" "HUD_FastSwitch"
+  {
+    "1" "ON" "hud_fastswitch 1"  
+    "2" "OFF" "hud_fastswitch 0"  
+  }
+}
+"4" "Team Message"
+{
+  "1" "General"
+  {
+ 	"1" "Medic!" "say Medic!"
+      "2" "Need Backup!" "say Need backup!"
+      "3" "AFFIRMATIVE"	"say Affirmative"
+      "4" "NEGATIVE" "say Negative"
+  } 
+  "2" "Enemy"
+  {
+     "1" "Enemy Spotted" "say Enemy spotted..."
+     "2" "Human Grunts" "say Squad of Human Grunts spotted"
+     "3" "Alien Grunts" "say Squad of Alien Grunts spotted"
+     "4" "Assasins" "say Assasins spotted"
+     "5" "Garg" "say Garg Spotted! Stock up on explosives and engage"
+     "6" "Baby Garg" "say Baby Garg in sight"
+     "7" "Apache" "say Apache Spotted in my area"
+     "8" "Osprey" "say Osprey in sight"
+     "9" "Big Momma" "say Big Momma sighted"
+    }
+  "3" "Teammate"
+  {
+     "1" "Pull back!" "say Teammate, pull back for health and armour!"
+     "2" "Stay together team!" "say Stay together team!"
+     "3" "Follow me!" "say Follow me!"
+  }
+  "4" "State Report"
+  {
+     "1" "Going for Health/ammo" "say I'm heading back for health and ammo"
+     "2" "Low on Health!" "say I'm low on health"
+     "3" "Low on ammo!" "say I'm low on ammo"
+     "4" "Low on ammo & health" "say Need health and ammo urgently!"
+  }
+}
+"5" "Model"
+{
+     "1" "Valve Deathmatch"
+  {
+     "1" "Freeman" "model gordon"	
+     "2" "Gina" "model gina"
+     "3" "Scientist" "model scientist"
+     "4" "Barney" "model barney"
+     "5" "G-Man" "model gman"
+     "6" "Zombie" "model zombie"
+     "7" "Robot" "model robo"
+     "8" "HEV Suit" "model helmet"
+     "9" "Cannibal" "model cannibal"
+  }
+     "2" "Op Force"
+  {
+     "1" "Grunt" "model grunt"
+     "2" "Hazmat" "model cl_suit"
+     "3" "Tower" "model tower"
+     "4" "Otis" "model otis"
+     "5" "Male Assassin" "model massn"
+     "6" "Female Assassin" "model fassn"
+  }
+     "3" "Sven Co-op"
+  {
+     "1" "Unmasked Barney" "model unm_barney"
+     "2" "Doom Marine" "model obi09"	
+     "3" "Friendly Grunt" "model recon"
+     "4" "ASWAT" "model aswat"
+     "5" "USCM" "model uscm"
+     "6" "Punisher" "model punisher"
+     "7" "Trinity" "model trinityrage"
+     "8" "Boba Fett" "model mandalorian"
+     "9" "Epsilon Tactical" "model etac"	
+  }
+}
+"6" "Camera"
+{
+    "1" "Chasecam"
+    {
+      "1" "ON" "thirdperson"  
+      "2" "OFF" "firstperson"  
+    }
+    "2" "Distance"
+    {
+      "1" "0" "cam_idealdist 0"
+      "2" "45" "cam_idealdist 45"
+      "3" "90" "cam_idealdist 90"
+      "4" "135" "cam_idealdist 135"
+      "5" "180" "cam_idealdist 180"
+      "6" "225" "cam_idealdist 225"
+      "7" "270" "cam_idealdist 270"
+      "8" "315" "cam_idealdist 315"
+      "9" "360" "cam_idealdist 360"
+    }
+    "3" "Rotation"
+    {
+      "1" "0" "cam_idealyaw 0"
+      "2" "45" "cam_idealyaw 45"
+      "3" "90" "cam_idealyaw 90"
+      "4" "135" "cam_idealyaw 135"
+      "5" "180" "cam_idealyaw 180"
+      "6" "225" "cam_idealyaw 225"
+      "7" "270" "cam_idealyaw 270"
+      "8" "315" "cam_idealyaw 315"
+      "9" "360" "cam_idealyaw 360"
+    }
+
+    "4" "Presets"
+    {
+      "1" "Normal" "cam_idealpitch 0;cam_idealdist 90;cam_idealyaw 0"
+      "2" "Eagle Eye Far" "cam_idealpitch 90;cam_idealdist 1000;cam_idealyaw 0"
+      "3" "Eagle Eye Med" "cam_idealpitch 90;cam_idealdist 500;cam_idealyaw 0"
+      "4" "Beauty Shot" "cam_idealpitch 11;cam_idealdist 90;cam_idealyaw 135"
+      "5" "Beauty Shot2" "cam_idealpitch 11;cam_idealdist 90;cam_idealyaw 225"
+      "6" "Close Up" "cam_idealpitch 0;cam_idealdist 50;cam_idealyaw 225"
+      "7" "Upside Down" "cam_idealpitch 180;cam_idealdist 0;cam_idealyaw 180"
+    }
+}
+"7" "MP3 Player"
+{
+	"1" "Open Mp3 Menu"	"mp3player"
+	"2" "Forwards"		"NextSong"
+	"3" "Backwards"	"LastSong"
+	"4" "Random"	"RandomSong"
+	"5" "Play"		"NextSong"
+	"6" "Stop"		"StopSong"
+}
+"8" "Briefing/MOTD" "briefing"
+"9" "Drop Current Weapon" "drop"

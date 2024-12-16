@@ -1,0 +1,114 @@
+Afrika Korps                                                    Release date: 22-11-2003
+========================================================================================
+
+NOTE: If you play this map and see some blue models you will need the transparant DLL's
+      from Valve Software. If you have Day of Defeat installed or play Svencoop 3 on steam 
+      you won't have to download the transparant DLL's to see the models properly.
+
+
+Download the transparant DLL's here:
+
+http://www.custom-tfc.co.uk/index.php?section=browse&category=misc&sort_by=downloads
+
+Place them in your half-life directory and overwrite all.
+
+========================================================================================
+
+Mapping : MysticMDT ( mysticmdt@mysticmdt.hlgaming.com )(http://www.mysticmdt.hlgaming.com)
+
+Modeling: SiC       ( sic@gmx.li)
+
+
+Model credits:
+
+-Panzerfaust (panzerfaustm2@hotmail.com)
+-Invasion Works (-iNw-H&K S.Gautreaux and G.Mackeddie DoG and Scimitar) (game_artist@hotmail.com)
+-Trigger (miediev@hotmail.com)
+-Kraut-Killer
+-MarGon (www.margon4u.de.vu)
+
+Texture credits:
+
+-Blazeeer (http://www.blaz.cscentral.com/)
+-Valve (http://www.valvesoftware.com/)
+-Cayle George (http://www.planethalflife.com/cayle/)
+-Daniel Luka  (daniell@invasionworks.com)
+
+Sound credits:
+
+-Saving Private Ryan 
+
+
+Also thanks to!:
+
+Sven Viking and the team (http://www.svencoop.com/)
+
+========================================================================================
+--------------------------------Background Mission 1------------------------------------
+========================================================================================
+Location: North Afrika
+
+Hello Lieutenant,
+
+Rommel's afrika korps has taken a town in North Afrika.Your teams mission is to steal
+the war documents and any other secret documents in the area. Also you have to Locate and 
+destroy the sensitive radar and communication equipment before they can transmit the secret 
+wardocuments. The afrika korps has set up defense points with mg42's that you will have 
+to disable. If you spot a german tank , destroy it with a bazooka in the area. Once you have the 
+war documents exit the town in the west.
+
+
+With any luck, We'll force Rommel and the Afrika Korps out of North Africa soon enough.
+
+Dwight D. Eisenhower
+General U.S. Army,
+Commanding.
+
+----------------------------------------------------------------------------------------
+
+Objectives:
+
+-Disable all axis mg42's
+-Destroy any active german tank in the area
+-Locate and steal any secret document
+-Destroy all communication equipment
+-Locate and destroy axis radar
+-Steal the war documents
+-Head down to the west for extraction
+
+TIPS: 
+
+-Use explosives(grenades, bazooka) to disable the mg42's or tanks it's the only way.
+-If you run out of grenades there are several places to find them.
+-The ally medic can heal you in combat so keep him close to you.
+
+========================================================================================
+--------------------------------Background Mission 2------------------------------------
+========================================================================================                            
+
+Location: Tobruk,North Afrika
+
+
+Hello Lieutenant, 
+
+You need to destroy the axis anti-tank cannon located in the desert 
+of Tobruk immediately. We lost many tanks out there and we need your 
+team asap to get the job done.
+
+
+Dwight D. Eisenhower
+General U.S. Army,
+Commanding.
+
+----------------------------------------------------------------------------------------
+
+Objective:
+
+-Destroy the axis anti-tank gun with explosions
+
+
+
+Copyright-Permissions-------------------------------------------------------------------
+
+Authors MAY NOT use these levels as base to build additional levels.
+
